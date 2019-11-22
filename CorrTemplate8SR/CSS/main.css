@@ -50,7 +50,7 @@ a, a:hover, a:focus, .btn:focus {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Open Sans', sans-serif;
-    color: #3C81AE;
+    color: #0B6623;
 
 }
 
@@ -180,7 +180,7 @@ main > section {
 }
 
 .sec-title h2:after {
-    border-bottom: 1px solid #009ee3;
+    border-bottom: 1px solid #0B6623;
     content: "";
     display: block;
     left: 45%;
@@ -342,7 +342,7 @@ h1.navbar-brand {
 }
 
 .slide-caption {
-    color: #fff;
+    color: #0B6623;
     display: table;
     height: 100%;
     left: 0;
@@ -360,7 +360,7 @@ h1.navbar-brand {
 }
 
 .caption-content h2 {
-    color: #fff;
+    color: #0B6623;
     font-size: 52px;
     font-weight: 400;
     margin-bottom: 25px;
@@ -903,7 +903,7 @@ ul.external li a:hover {
 }
 
 #social .overlay {
-    background: url("../img/GreenGlobe.png") repeat scroll 0 0 transparent;
+    background: url("../img/trees.jpg") repeat scroll 0 0 transparent;
     padding: 100px 0 120px;
 }
 
@@ -1017,11 +1017,18 @@ textarea.form-control {
 /*============================================================
 	Footer
 ==============================================================*/
-
+.one_fourth {
+	width: 22%;
+}
 #footer {
     background-color: #2E2E2E;
     padding: 70px 0;
     color: #fff;
+}
+
+.footer {
+	background:#261b0d url(../images/rausch.png) repeat;
+	padding:20px 0px;
 }
 
 .footer-content {
