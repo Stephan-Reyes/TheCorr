@@ -34,6 +34,14 @@ iframe {
     border: 0;
 }
 
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 a {
     -webkit-transition: all 0.3s ease-out 0s;
        -moz-transition: all 0.3s ease-out 0s;
@@ -512,7 +520,6 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
-    background-color: #90ee90;
     color: #fff;
 }
 
