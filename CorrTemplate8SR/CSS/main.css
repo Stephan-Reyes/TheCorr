@@ -38,6 +38,28 @@ iframe {
     object-fit: cover;
     margin-bottom: 0;
 }
+.vid{
+    position: relative;
+}
+
+.button {
+        background-color: #0B6623;
+        border: none;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        padding-top: 10px;
+        height: 40px;
+        left: 47%;
+        position: absolute;
+        top: 50%;
+        width: 150px;
+        z-index: 1;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        }
+
+
 
 a {
     -webkit-transition: all 0.3s ease-out 0s;
