@@ -28,6 +28,7 @@ figure, p, address {
 
 p {
     line-height: 25px;
+    color: gray;
 }
 
 iframe {
@@ -49,7 +50,7 @@ iframe {
         color: white;
         padding-top: 10px;
         height: 40px;
-        left: 47%;
+        left: 44%;
         position: absolute;
         top: 50%;
         width: 150px;
@@ -203,7 +204,7 @@ main > section {
 }
 
 .sec-title.white h2 {
-    color: #fff;
+    color: #147041;
 }
 
 .sec-title h2:after {
@@ -788,7 +789,7 @@ ul.external li a:hover {
 }
 
 .testimonial-item > div:before {
-    background-image: url("../img/icons/quotes.png");
+    /*background-image: url("../img/icons/quotes.png");*/
     background-repeat: no-repeat;
     bottom: 127px;
     height: 33px;
@@ -798,7 +799,7 @@ ul.external li a:hover {
 }
 
 .testimonial-item > div:after {
-    background-image: url("../img/icons/quotes.png");
+    /*background-image: url("../img/icons/quotes.png");*/
     background-position: -58px 0;
     background-repeat: no-repeat;
     bottom: -50px;
@@ -1360,6 +1361,7 @@ textarea.form-control {
 
     .testimonial-item > div > span {
         margin: 30px 0 20px;
+        color: #6c6c6c;
     }
 
 /* price */
@@ -1473,4 +1475,7 @@ textarea.form-control {
     .footer-content {
         width: 380px;
     }
+}
+ul {
+    list-style-type: none;
 }
