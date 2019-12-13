@@ -29,8 +29,11 @@ figure, p, address {
 p {
     line-height: 25px;
     color: black;
+    text-align: justify;
 }
-
+.newsDate {
+    margin-left: 43%;
+}
 iframe {
     border: 0;
 }
